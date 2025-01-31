@@ -1,0 +1,30 @@
+.shop-info-counter-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.shop-info-counter-footer-inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    color: white;
+    gap: 20px;
+    /* background-color: #252525; */
+
+
+}
+
+.shop-info-counter-footer-inside img {
+    height: 60px;
+    filter: invert(1);
+
+}
+.shop-info-counter-footer-inside h1{
+    font-size: 50px;
+
+}

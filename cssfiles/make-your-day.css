@@ -1,0 +1,88 @@
+.make-your-day-footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.design-bg-footer-left{
+    background-color: #1c1b19;
+    position: relative;
+}
+
+.golden-design-bg-footer{
+    background-color: #fcd462;
+    /* width: 70%; */
+    width: 500px;
+    position: relative;
+        height: 690px;
+}
+
+.make-your-day-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 180px;
+    width: 525px;
+    left: 0%;
+    
+  }
+  
+  .make-your-day-info button {
+    width: 177px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #fcd462;
+    letter-spacing: 1px;
+    font-size: 14px;
+    height: 65px;
+    width: 190px;
+    margin-top: 25px;
+    transition: all 0.4s ease-out 0s;
+  }
+  .make-your-day-info button:hover {
+    transition: all 0.4s ease-out 0s;
+    border: 2px solid #fcd643;
+    background: transparent;
+    color: #fcd643;
+    cursor: pointer;
+  }
+  
+  .make-your-day-info h1 {
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  .make-your-day-info h3 {
+    color: #a3a3a3;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .make-your-day-info p {
+    color: #a3a3a3;
+    line-height: 25px;
+  }
+
+  .make-your-day-yt-video-img img{
+    height: 460px;
+    width: 555px;
+    object-fit: cover;
+    position: absolute;
+    right: 41%;
+
+  }
+
+.make-your-day-yt-video-img{
+    height: 460px;
+    width: 555px;
+    position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    right:0;
+}

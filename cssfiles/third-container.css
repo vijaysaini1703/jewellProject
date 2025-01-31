@@ -1,0 +1,223 @@
+.third-container{
+    /* display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 115px 0 0 0; */
+    position: relative;
+    padding-top: 80px;
+
+}
+
+.background-img .main-bg{
+    position: absolute;
+    object-fit: cover;
+
+    right: 0%;
+    z-index: 0;
+   margin-top: 220px;
+}
+
+.pattern-bg{
+    position: absolute;
+    object-fit: cover;
+    
+    right: 0;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: 220px;
+
+}
+
+.third-container-inside{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    align-items: center;
+    z-index: 10;
+    padding: 0 205px;
+
+
+}
+.third-container-ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    
+    
+
+
+}
+.third-container-wedding-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    margin-top: 60px;
+    
+    
+
+
+    
+}
+
+.third-container-coloumn-one-name img{
+    height: 70px;
+    width: 70px;
+
+    
+}
+.third-container-coloumn-one-img{
+    height: 315px;
+    width: 263px;
+    margin-top: 30px;
+}
+.third-container-coloumn-one-img  img {
+    height: 315px;
+    width: 263px;
+    object-fit: cover;
+    
+
+}
+
+.third-container-coloumn-two-name img {
+    height: 70px;
+    width: 70px;
+}
+.third-container-coloumn-two-img img {
+    height: 315px;
+    width: 263px;
+    object-fit: cover;
+    object-fit: cover;
+
+    
+
+}
+.third-container-coloumn-two-img{
+    height: 315px;
+    width: 263px;
+    
+}
+.third-container-coloumn-one-name{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+    height: 315px;
+    width: 263px;
+    background-color: #353530;
+    
+
+}
+.third-container-coloumn-two-name{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+    height: 315px;
+    background-color: #353530;
+
+    width: 263px;
+    margin-top: 30px;
+
+
+}
+.ring-wedding-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.third-container-info{
+    padding: 50px 64px 0px 80px;
+    z-index: 20;
+    
+}
+
+.third-container-info h3{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.third-container-info h1{
+    font-size: 70px;
+    color :white;
+    line-height: 65px;
+    letter-spacing: 1px;
+    font-family: 'brandley';
+    font-weight: 300;
+
+}
+
+.third-container-info button{
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fcd462;
+    border: none;
+   width: 201px;
+    padding: 0 48px;
+    height: 64px;
+
+}
+.third-container-info button:hover{
+    border: 2px solid #fcd643;
+    background: none;
+    transition: 0.5s ease-in;
+    color: #fcd643;
+    cursor: pointer;
+}
+.third-container-info p{
+    margin-top: 40px;
+
+    color: #a3a3a3;
+    line-height: 25px;
+}
+
+.third-container-coloumn-one-name h1{
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'brandley';
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.third-container-coloumn-one-name p{
+    text-align: center;
+    color: #a3a3a3;
+    line-height: 20px;
+
+}
+.third-container-coloumn-one-name img{
+    margin-bottom: 20px;
+}
+.third-container-coloumn-two-name h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    font-family: 'brandley';
+    font-weight: 300;
+}
+
+.third-container-coloumn-two-name p{
+    text-align: center;
+    color: #a3a3a3;
+    line-height: 20px;
+
+}
+.third-container-coloumn-two-name img{
+    margin-bottom: 20px;
+}

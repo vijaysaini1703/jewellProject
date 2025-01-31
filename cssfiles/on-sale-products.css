@@ -1,0 +1,44 @@
+.on-sale-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #353530;
+
+}
+
+
+
+.on-sale-products-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.on-sale-products-header h3{
+    margin-bottom: 15px;
+    color: #a3a3a3;
+    font-size: 14px;
+    letter-spacing: 3px;
+
+}
+.on-sale-products-header h1{
+    color:white;
+    font-size: 70px;
+    margin-bottom: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+
+
+
+}
+.on-sale-products-header img{
+    height: 45px;
+    margin-bottom: 17px;
+    filter:invert(1);
+    margin-top: 40px;
+
+
+}

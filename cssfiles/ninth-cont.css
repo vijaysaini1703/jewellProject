@@ -1,0 +1,9 @@
+.ninth-container-below-our-cate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+

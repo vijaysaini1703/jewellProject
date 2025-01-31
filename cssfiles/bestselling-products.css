@@ -1,0 +1,88 @@
+.seventh-container-bestselling-products {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  grid-template-columns: 0.8fr 0.1fr 0.1fr 0.1fr;
+  gap: 30px;
+  background-color: #1c1b19;
+  margin-left: 60px;
+  margin-right: 20px;
+  padding-bottom: 115px;
+}
+.bestselling-products-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.bestselling-products-info button {
+  width: 177px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #fcd462;
+  letter-spacing: 1px;
+  font-size: 14px;
+  height: 65px;
+  width: 190px;
+  margin-top: 25px;
+  transition: all 0.4s ease-out 0s;
+}
+.bestselling-products-info button:hover {
+  transition: all 0.4s ease-out 0s;
+  border: 2px solid #fcd643;
+  background: transparent;
+  color: #fcd643;
+  cursor: pointer;
+}
+
+.bestselling-products-info h1 {
+  color: white;
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.bestselling-products-info h3 {
+  color: #a3a3a3;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.bestselling-products-info p {
+  color: #a3a3a3;
+  line-height: 25px;
+}
+
+.bestselling-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pro-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+  background-color: #353530;
+  width: 245px;
+}
+.pro-info span:nth-child(1) {
+  color: #fcd643;
+  font-size: 20px;
+}
+.pro-info span:nth-child(2) {
+  color: #a3a3a3;
+  text-decoration: line-through;
+}
+
+.pro-info h2 {
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  color: white;
+}
