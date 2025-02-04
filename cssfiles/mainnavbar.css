@@ -108,3 +108,26 @@
 .main-btn-img:nth-child(4) img {
     height: 23px;
 }
+
+
+
+.homeDropdown{
+    display: flex;
+    
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    flex-direction: column;
+    top: 26%;
+    background: #353530;
+    padding: 0px 96px 15px 26px;
+    border: 1px solid black;
+    left: 32.5%;
+}
+
+.homeDropdown {
+    display: none;
+}
